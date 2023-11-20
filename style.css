@@ -197,12 +197,6 @@ header {
 }
 
 
-.progress-line .javascript {
-  width: 100%;
-}
-.progress-line .Core {
-  width: 95%;
-}
 .progress-line .html {
   width: 80%;
 }
@@ -212,7 +206,12 @@ header {
 .progress-line .SQL {
   width: 70%;
 }
-
+.progress-line .Python {
+  width: 100%;
+}
+.progress-line .Django {
+  width: 95%;
+}
 .bar .progress-line span::before {
   position: absolute;
   content: "";
