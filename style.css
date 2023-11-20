@@ -196,6 +196,13 @@ header {
   }
 }
 
+
+.progress-line .javascript {
+  width: 100%;
+}
+.progress-line .Core {
+  width: 95%;
+}
 .progress-line .html {
   width: 80%;
 }
@@ -204,12 +211,6 @@ header {
 }
 .progress-line .SQL {
   width: 70%;
-}
-.progress-line .javascript {
-  width: 50%;
-}
-.progress-line .Core {
-  width: 50%;
 }
 
 .bar .progress-line span::before {
